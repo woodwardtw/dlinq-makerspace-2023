@@ -38,6 +38,7 @@ a {
 
 a:hover {
   text-decoration: #fff solid underline;
+  color: $white;
 }
 
 
@@ -50,6 +51,16 @@ a:hover {
 .title-block {	
 	border-bottom: 1px solid #fff;
 	margin-bottom: 4px;
+  background-color: $white;
+}
+
+.main-logo {
+  max-width: 500px;
+}
+
+.header-icon {
+  width: 38px;
+  height: 38px;
 }
 
 .college {
@@ -108,9 +119,6 @@ a:hover {
   margin-top:  3px;
 }
 
-.info .item:first-child {
-  border-right:  1px solid #fff;
-}
 
 .info .item {
   flex-grow: 1;
@@ -122,6 +130,11 @@ a:hover {
   border-bottom:  1px solid white;
   padding:  10px 20px;
   text-align: center;
+  border-right:  1px solid #fff;
+}
+
+.info .item:last-of-type {
+  border-right: none;
 }
 
 .content-block h2 {
@@ -283,6 +296,7 @@ a:hover {
 
 .menu li a:hover {
     border-bottom:  2px dashed $midd-blue;
+    color: $white;
 }
 
 .tool-list {

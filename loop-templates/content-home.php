@@ -25,6 +25,9 @@ defined( 'ABSPATH' ) || exit;
 	</style><g><path class="st0" d="M30.3,15.1c2.8,0,7.7,1.3,15.8,9.3l4,3.9l3.9-4c5.6-5.7,11.6-9.2,15.6-9.2c5.2-0.1,10.2,2.1,13.8,6   c8.1,8,8.1,21.1,0.1,29.1c0,0-0.1,0.1-0.1,0.1C83,50.6,66,68.9,51.8,84.2c-1,1-2.6,1-3.7,0c-3.5-3.8-28.6-31.7-31.5-34.7   c-8.1-8-8.1-21.1-0.1-29.1c0,0,0,0,0.1-0.1C20.3,16.8,25.2,14.9,30.3,15.1 M30.3,9.5c-6.6-0.2-12.9,2.3-17.6,6.9   c-10.2,10.2-10.3,26.8-0.1,37c0,0,0,0,0.1,0.1c2.9,2.9,31.4,34.6,31.4,34.6c3.2,3.2,8.5,3.2,11.7,0c0,0,31.1-33.6,31.5-33.9   c10.2-10.2,10.3-26.8,0.1-37c0,0,0,0-0.1-0.1c-4.6-4.9-11-7.7-17.7-7.6c-6.6,0-14,5.3-19.6,10.9C44.3,14.7,37.1,9.5,30.3,9.5   L30.3,9.5z"></path></g>
 	</svg>Everyone is welcome.
 		    </div>
+		    <div class="item">
+		    	<a href="https://outlook.office365.com/calendar/published/e11ad0f41cb14d28bbf8a7a2aa76c184@middlebury.edu/4ffa2b2e40aa4e6ead6a2d56f95f65af1387627718793938415/calendar.html"><img src="<?php echo get_template_directory_uri();?>/imgs/calendar.svg" class="header-icon" alt="Calendar icon."> Events</a>
+		    </div>
 		</div>
 		<div class="container">	
 			<?php echo makerspace_home_blocks();?>	  		 
