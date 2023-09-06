@@ -16519,6 +16519,10 @@ a:hover {
   color: #ffffff;
 }
 
+#content {
+  padding-bottom: 600px;
+}
+
 .center-this {
   display: flex;
   justify-content: center;
@@ -16786,11 +16790,13 @@ a:hover {
 
 .menu li a {
   color: #0d395f;
+  transition: all 350ms ease;
 }
 
-.menu li:hover {
+.menu li a:hover {
   margin-top: 10px;
   text-decoration: underline;
+  color: #0d6efd;
 }
 
 .menu li a:hover {

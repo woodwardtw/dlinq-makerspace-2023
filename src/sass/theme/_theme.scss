@@ -41,6 +41,9 @@ a:hover {
   color: $white;
 }
 
+#content {
+  padding-bottom: 600px;
+}
 
 .center-this {
 	display: flex;
@@ -286,11 +289,13 @@ a:hover {
 
 .menu li a {
     color:  $midd-blue;
+    transition: all 350ms ease;
 }
 
-.menu li:hover {
+.menu li a:hover {
   margin-top: 10px;
   text-decoration: underline;
+  color: $blue;
 }
 
 .menu li a:hover {
