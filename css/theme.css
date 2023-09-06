@@ -16923,8 +16923,8 @@ a:hover {
     font-size: 5vw;
   }
 
-  .content-block p {
-    font-size: 4vw;
+  .content-block p, .content-block li {
+    font-size: 1.8rem;
   }
 
   .info .item {
