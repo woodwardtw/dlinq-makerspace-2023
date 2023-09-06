@@ -16500,7 +16500,7 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-  height: 1200px;
+  min-height: 1200px;
   padding: 0;
   top: 0;
   color: #fff;
@@ -16793,7 +16793,7 @@ a:hover {
   transition: all 350ms ease;
 }
 
-.menu li a:hover {
+.menu-footer li a:hover {
   margin-top: 10px;
   text-decoration: underline;
   color: #0d6efd;
