@@ -16641,18 +16641,6 @@ a:hover {
   margin: auto;
 }
 
-/*.content-block h3:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right:  0;
-  bottom: -5px;
-  border-bottom: 1px solid #fff;
-  margin-top:  3px;
-  display: inline-block;
-}
-*/
 .content-block {
   max-width: 900px;
   margin: 100px auto;
@@ -16678,8 +16666,8 @@ a:hover {
   left: -10px;
 }
 
-.content-block p {
-  font-size: 2vw;
+.content-block p, .content-block li {
+  font-size: 1.8rem;
   font-family: sans-serif;
   margin: 15px 0;
   line-height: 1.2em;
