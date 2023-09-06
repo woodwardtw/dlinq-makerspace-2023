@@ -1,0 +1,468 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: "Oswald", "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  color:  #fff;
+  font-weight: 700;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $midd-blue;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 1200px;
+  padding: 0;
+  top: 0;
+  color:  #fff;
+}
+
+a {
+  color:  #fff;
+  text-decoration: #fff dotted underline;
+  transition:  all 350ms ease;
+}
+
+a:hover {
+  text-decoration: #fff solid underline;
+}
+
+
+.center-this {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-block {	
+	border-bottom: 1px solid #fff;
+	margin-bottom: 4px;
+}
+
+.college {
+	font-family: "Oswald", "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  color:  #fff;
+	font-size: 3vw;
+	font-weight: 300;
+	line-height: 1;
+}
+
+#maker{
+    font-size: 15vw;
+    white-space: nowrap;
+  /*  transform: rotate(90deg);
+    transform-origin: 14% 2vw;*/
+    color: rgba(255,255,255,1);
+    margin: 0;
+    padding:  0 0 15px 0;
+/*  text-shadow: 5px 5px black;
+*/
+    // text-align: center;
+    line-height: .9em;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+
+#space{
+    left:  100%;
+    font-size: 20vw;
+    top: 0;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    transform-origin: 14% 1vw;
+    position: absolute;
+    color: rgba(255,255,255,1);
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  width:  100%;
+  position: relative;
+}
+
+.info:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right:  0;
+  bottom: -5px;
+  border-bottom: 1px solid #fff;
+  margin-top:  3px;
+}
+
+.info .item:first-child {
+  border-right:  1px solid #fff;
+}
+
+.info .item {
+  flex-grow: 1;
+  display: block;
+  font-size:  2vw;
+  font-family: sans-serif;
+  color:  #fff;
+  border-top:  1px solid white;
+  border-bottom:  1px solid white;
+  padding:  10px 20px;
+  text-align: center;
+}
+
+.content-block h2 {
+  font-size: 5vw;
+  margin: 0;
+  line-height: 1em;
+}
+
+.content-block h2 {
+  font-size: 3.5vw;
+  margin: 0;
+  line-height: 1em;
+  display: inline-block;
+  background-color: $midd-blue;
+  border-right:  1px solid #fff;
+/*  border-bottom: 1px solid #fff;
+*/ 
+
+  display: flex;
+  flex-direction: row;
+}
+.content-block h2:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+
+/*.content-block h3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:  0;
+  bottom: -5px;
+  border-bottom: 1px solid #fff;
+  margin-top:  3px;
+  display: inline-block;
+}
+*/
+.content-block {
+  max-width: 700px;
+  margin: 100px auto;
+  color: #fff;
+  transition: all 550ms ease;
+/*  border:  1px solid red;
+*/}
+
+.content-block:target {
+  border-left:  1px solid #fff;
+  padding-left:  12px;
+  position: relative;
+}
+
+.content-block:target:after {
+  content: '';
+  border-left:  1px solid #fff;
+  padding-left:  12px;
+  display: block;
+  width:  100%;
+  height:  100%;
+  position: absolute;
+  top: 0;
+  left:  -10px;
+}
+
+.content-block p {
+  font-size:  2vw;
+  font-family: sans-serif;
+  margin:  15px 0;
+  line-height: 1.2em;
+  color:  #fff;
+}
+
+.content-block.intro p {
+  border-left:  0;
+  padding-left:  0;
+  margin-bottom: 40px;
+}
+
+.location {
+  background-image: url(../imgs/location.svg);
+  width:  40px;
+  height: 40px;
+  display: inline-block;
+  background-size: cover;
+  margin-bottom:  -10px;
+}
+
+.heart {
+  width:  38px;
+  height: 38px;
+  display: inline-block;
+  background-size: contain;
+  margin-right:  10px;
+  fill:  #FFFFFF;
+  animation: pulse 10s infinite;
+  -webkit-animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0%   { fill: #ff0000 }
+  17%  { fill: #ffff00 }
+  33%  { fill: #00ff00 }
+  50%  { fill: #00ffff }
+  67%  { fill: #fff }
+  83%  { fill: #ff00ff }
+  100% { fill: #ff0000 }
+}
+
+@-webkit-keyframes pulse {
+  0%   { fill: #ff0000 }
+  17%  { fill: #ffff00 }
+  33%  { fill: #00ff00 }
+  50%  { fill: #00ffff }
+  67%  { fill: #fff }
+  83%  { fill: #ff00ff }
+  100% { fill: #ff0000 }
+}
+
+.footer{
+  width:  100%;
+  height:  60px;
+  position: fixed;
+  bottom:  0;
+  left:  0;
+  display:  block;
+  background-color:  rgba(255,255,255,1);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-family: "Oswald", "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding:  0;
+  margin:  0;
+  font-weight: 700;
+}
+
+.menu li {
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+  margin-top:  18px;
+  color:  $midd-blue;
+  transition: all 350ms ease;
+}
+
+.menu li a {
+    color:  $midd-blue;
+}
+
+.menu li:hover {
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.menu li a:hover {
+    border-bottom:  2px dashed $midd-blue;
+}
+
+.tool-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 150px;
+  height:  100%;
+}
+
+.tool {
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 32%;
+    height: auto;
+    color:  #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size:  1.5em;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:  220px;
+    position: relative;
+    overflow: hidden;
+    transition: all 350ms ease;
+}
+
+.tool a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:  0;
+  top: 10px;
+}
+
+
+
+.tool:nth-of-type(1){
+  border-bottom:  1px dotted #fff;
+}
+
+.tool:nth-of-type(2){
+  border-left:  1px dotted #fff;
+  border-right:  1px dotted #fff;
+  border-bottom:  1px dotted #fff;
+}
+
+.tool:nth-of-type(3){
+  border-bottom:  1px dotted #fff;
+}
+
+.tool:nth-of-type(5){
+  border-left:  1px dotted #fff;
+  border-right:  1px dotted #fff;
+}
+
+.tool:hover {
+  background-color: var(--aqua);
+/*  box-shadow: -4px 4px #fff;
+*/  /*margin: -4px -4px 0 0;*/
+  z-index: 3;
+}
+
+.printer {
+  background-image: url('../imgs/3d-printer.svg');
+}
+
+.sewing-machine {
+  background-image: url('../imgs/sewing-machine.svg');
+}
+
+.soldering {
+  background-image: url('../imgs/soldering.svg');
+}
+
+.laser {
+  background-image: url('../imgs/laser-cutter.svg');
+}
+
+.heat-press {
+  background-image: url('../imgs/heat-press.svg');
+}
+
+.cnc {
+  background-image: url('../imgs/cnc.svg');
+}
+
+
+/*TOOL Page*/
+
+#tool {
+    font-size: 10vw;
+    white-space: nowrap;
+    color: rgba(255,255,255,1);
+    margin: 0;
+    padding:  0 0 15px 0;
+    text-align: center;
+    line-height: 1em;
+    border-bottom: 1px solid;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+
+  .content-block {
+    margin: 50px auto;
+    max-width: 90%;
+  }
+
+  .content-block h2 {
+    font-size: 7vw;
+  }
+
+   .content-block h3 {
+    font-size: 5vw;
+  }
+
+  .content-block p {
+    font-size:  4vw;
+  }
+
+  .info .item {
+    font-size:  4vw;
+    display: flex;
+    text-align: left;
+  }
+
+  .info .location {
+    display: none;    
+  }
+
+  .tool {
+    flex-basis: 48%;
+    border:  none !important;
+    font-size:  1em;
+  }
+  
+}
+
+
+
+body{
+  background:
+    
+             linear-gradient(90deg, rgba(50,100,170,.05) 1px, transparent 0),
+             linear-gradient(180deg, rgba(50,100,170,.05) 1px, transparent 0),
+    
+             linear-gradient(90deg, rgba(50,100,170,.05) 1px, transparent 0),
+             linear-gradient(180deg, rgba(50,100,170,.05) 1px, transparent 0),
+    
+             linear-gradient(90deg, rgba(50,100,170,.05) 2px, transparent 0),
+             linear-gradient(180deg, rgba(50,100,170,.05) 2px, transparent 0);
+  
+  background-color:$midd-blue;
+  
+  background-size:100% 100%, 
+    
+                  50px 50px,
+                  50px 50px,
+    
+                  25px 25px,
+                  25px 25px,
+    
+                  100px 100px, 
+                  100px 100px;
+  
+  background-attachment: local;
+  
+  width:100%;
+  height:100%;
+}
+
+@media only screen and (max-width: 650px) {
+	
+}
