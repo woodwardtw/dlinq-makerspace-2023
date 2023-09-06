@@ -347,3 +347,8 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 
 	}
 } // End of function_exists( 'understrap_widgets_init' ).
+
+function makerspace_footer_menu() {
+  register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'makerspace_footer_menu' );
